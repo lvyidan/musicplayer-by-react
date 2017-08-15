@@ -4,7 +4,7 @@
   "description": "music player build by react",
   "main": "app/index.js",
   "scripts": {
-    "start": "node server.js --env=dev",
+    "start": "webpack-dev-server --inline --progress --port 8080 --host 0.0.0.0",
     "test": "karma start",
     "test:watch": "karma start --autoWatch=true --singleRun=false",
     "posttest": "npm run lint",
