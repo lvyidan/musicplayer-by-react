@@ -2,23 +2,21 @@
   "name": "react-music-player",
   "version": "1.0.0",
   "description": "music player build by react",
-  "main": "app/index.js",
+  "main": "./app/index.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --progress --port 8080 --host 0.0.0.0",
+    "start": "node server",
+    "build": "webpack --config ./webpack.production.config.js --progress --profile --colors",
     "test": "karma start",
-    "test:watch": "karma start --autoWatch=true --singleRun=false",
     "posttest": "npm run lint",
     "serve": "node server.js --env=dev",
     "serve:dist": "node server.js --env=dist",
     "dist": "npm run copy & webpack --env=dist",
     "lint": "eslint ./src",
-    "copy": "copyfiles -f ./src/index.html ./src/favicon.ico ./dist",
+    "copy": "copyfiles -f ./static ./dist",
     "clean": "rimraf dist/*",
     "release:major": "npm version major && npm publish && git push --follow-tags",
     "release:minor": "npm version minor && npm publish && git push --follow-tags",
-    "release:patch": "npm version patch && npm publish && git push --follow-tags",
-	"build":"...."
-	
+    "release:patch": "npm version patch && npm publish && git push --follow-tags"
   },
   "repository": {
     "type": "git",
