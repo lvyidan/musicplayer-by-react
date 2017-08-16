@@ -1,4 +1,4 @@
-![项目截图](https://github.com/lvyidan/musicplayer-by-react/raw/master/show.png)
+![项目截图](https://github.com/lvyidan/musicplayer-by-react/raw/gh-pages/photo/show.png)
 
 
 
