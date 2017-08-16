@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "c63d9fbd9cfc6793279c"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "21e887e82368934b6728"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -50499,7 +50499,7 @@ var Header = function (_Component) {
             return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                 'div',
                 { className: 'components-header row' },
-                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: '-col-auto', src: '/static/images/logo.png', width: '40', alt: '' }),
+                __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('img', { className: '-col-auto', src: './static/images/logo.png', width: '40', alt: '' }),
                 __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
                     'h1',
                     { className: 'caption' },
