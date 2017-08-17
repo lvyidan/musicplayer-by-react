@@ -1,6 +1,11 @@
-![项目截图](https://github.com/lvyidan/musicplayer-by-react/raw/gh-pages/photo/show.png)
+i![项目截图](https://github.com/lvyidan/musicplayer-by-react/raw/gh-pages/photo/show.png)
 
 ![项目截图](https://github.com/lvyidan/musicplayer-by-react/raw/gh-pages/photo/list.png)
+
+
+
+#地址#
+https://lvyidan.github.io/musicplayer-by-react/dist/index.html
 # musicplayer-by-react
 这是一个基于react的音乐播放器，可以控制音乐的播放进度和音量，也可以打开音乐列表切割
 简单，清新
